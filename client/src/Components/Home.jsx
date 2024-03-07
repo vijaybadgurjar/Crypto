@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import List from "./List";
 import { Link } from "react-router-dom";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import bg from "../Images/bg3.png";
 
 export default function Home() {

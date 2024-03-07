@@ -12,7 +12,8 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(
   cors({
     origin: "https://cryptofolio-full-stack-1.vercel.app",
-    credentials: true,
+    methods: ["GET", "POST"],
+    credentials: true
   })
 );
 
